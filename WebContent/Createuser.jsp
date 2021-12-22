@@ -24,7 +24,7 @@
 			<br> Enter password <input type="password" name="password">
 			<br> <br> Re-Enter Passwd <input type="password"
 				name="repassword"> <br> <br>
-			<button>Login</button>
+			<button>Submit</button>
 			<br> <br>
 		</form>
 		<centre> <strong><font color="red"><c:if test="${not empty param.errMsg}">

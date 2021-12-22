@@ -16,7 +16,7 @@
 
 	<div align="center">
 		<form action="loginhome.jsp">
-			<font color="blue"><h2>Welcome to Online Airline Reservation System!!! Login page !!!</h2></font>
+			<font color="blue"><h2>Welcome to FlyAway Online Airline Reservation System!!! Login page !!!</h2></font>
 			<br> Enter User Name <input type="text" name="username">
 			<br> <br> Enter Password <input type="password" name="password"> <br> <br>
 			<button>Login</button>

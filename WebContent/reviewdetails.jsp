@@ -24,6 +24,16 @@
 	<c:set scope="session" var="country" value="${param.country}" />
 
 
+<sql:setDataSource var="db" driver="com.mysql.jdbc.Driver"
+			url="jdbc:mysql://localhost:3306/db_world" user="root"
+			password="root" />
+
+<sql:update dataSource="${db}" var="count"> 
+				INSERT INTO userinfo  (User_Name,Full_Name,Address,Age,mobile,Identity_card,country) VALUES ('${param.username}','${param.fullname}','${param.address}','${param.age}','${param.mobile}','${param.idcard}','${param.country}');  
+			</sql:update>
+			
+			
+			
 
 <div align="Left">
 <font color="blue"><h2>Review Your Details Here !!!</h2></font><br>

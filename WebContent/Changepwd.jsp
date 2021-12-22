@@ -21,7 +21,7 @@
 			Enter User name <input type="text" name="username"> <br><br> 
 			Enter old password <input type="password" name="oldpass"><br> <br> 
 			Enter new Password <input type="password" name="newpass"> <br> <br>
-			<button>Login</button>
+			<button>Submit</button>
 			<br> <br>
 		</form>
 		<centre> <strong><font color="red"><c:if test="${not empty param.errMsg}">

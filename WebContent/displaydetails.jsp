@@ -17,6 +17,7 @@
 </head>
 <body>
 
+
 <sql:setDataSource var="db" driver="com.mysql.jdbc.Driver"
 			url="jdbc:mysql://localhost:3306/db_world" user="root"
 			password="root" />
@@ -49,7 +50,7 @@
 
 <centre><h4>
 <jsp:text>
-       Thank You for booking with us! Visit us again !!!
+       Thank You for booking with FlyAway! Visit us again !!!
 </jsp:text>
 
 </h4></centre>
